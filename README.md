@@ -105,7 +105,7 @@ resource "aws_s3_object" "main" {
 ```
 # S3 버킷에 about.html 파일 업로드 (수정 시 덮어씀)
 resource "aws_s3_object" "about" {
-  bucket        = "버킷명  # 존재하는 버킷 이름 사용
+  bucket        = "버킷명"  # 존재하는 버킷 이름 사용
   key           = "about.html"               # 업로드할 파일 이름
   source        = "about.html"   # 로컬 파일 경로
   content_type  = "text/html"                 # 콘텐츠 유형
@@ -117,7 +117,7 @@ resource "aws_s3_object" "about" {
 ```
 # S3 버킷에 contact.html 파일 업로드 (수정 시 덮어씀)
 resource "aws_s3_object" "contact" {
-  bucket        = "버킷명  # 존재하는 버킷 이름 사용
+  bucket        = "버킷명"  # 존재하는 버킷 이름 사용
   key           = "contact.html"               # 업로드할 파일 이름
   source        = "contact.html"   # 로컬 파일 경로
   content_type  = "text/html"                 # 콘텐츠 유형
