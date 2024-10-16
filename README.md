@@ -18,7 +18,7 @@ $ sudo su -
 # terraform -version
 ```
 
-### bocket.tf - 버킷 생성 (하단의 권한 설정이 되지 않으면, S3에 업로드 및 수정, 조회가 제한된다.)
+### bucket.tf - 버킷 생성 (하단의 권한 설정이 되지 않으면, S3에 업로드 및 수정, 조회가 제한된다.)
 ```
 # S3 버킷 생성
 resource "aws_s3_bucket" "bucket1" {
