@@ -66,7 +66,6 @@ resource "aws_s3_bucket_policy" "public_read_access" {
         "Principal": "*",
         "Action": [ "s3:PutObject" ],
         "Resource": [
-          "arn:aws:s3:::[버킷명]"
           "arn:aws:s3:::[버킷명]/*"
         ]
       }
