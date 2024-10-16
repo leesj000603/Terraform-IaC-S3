@@ -132,15 +132,6 @@ $ terraform init
 $ terraform apply -auto-approve # yes입력 없이 자동 허용
 ```
 
-### PutBucketPolicy 문제 발생
-```
-putting S3 Bucket (ce22-bucket1) Policy: operation error S3: PutBucketPolicy
-```
-
-
-### iam권한 허용 
-```
-```
 
 ### 성공적으로 S3의 정적페이지가 hosting된다.
 ![image](https://github.com/user-attachments/assets/3bf1e73d-c22f-49df-9af0-d5385ee00779)
@@ -168,3 +159,12 @@ terraform apply
 
 ### 성공적으로 S3의 bucket의 내부 object들이 수정된 모습이다.
 
+
+
+## Trouble Shooting
+### PutBucketPolicy 문제 발생
+```
+putting S3 Bucket (ce22-bucket1) Policy: operation error S3: PutBucketPolicy
+```
+
+- bocket.tf에 bucket의 obkect를 수정, 게시할 수 있는 권한 추가
