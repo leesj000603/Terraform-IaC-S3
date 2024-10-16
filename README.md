@@ -167,4 +167,4 @@ terraform apply
 putting S3 Bucket (ce22-bucket1) Policy: operation error S3: PutBucketPolicy
 ```
 
-- bocket.tf에 bucket의 obkect를 수정, 게시할 수 있는 권한 추가
+- bocket.tf에 bucket의 obkect를 수정, 게시할 수 있는 권한 추가로 해결
