@@ -164,5 +164,13 @@ terraform apply
 ```
 putting S3 Bucket (ce22-bucket1) Policy: operation error S3: PutBucketPolicy
 ```
-
 - bocket.tf에 bucket의 object를 수정, 게시할 수 있는 권한인 PutObject 추가로 해결
+
+## 고려사항
+`$terraform plan` 사용하기
+
+![image](https://github.com/user-attachments/assets/cc4f4447-8904-4d90-a7d5-89a04ebad332)
+지금 내 terraform코드와 실제 aws인프라의 구성요소와의 차이를 확인하여 apply시 변동될 내역을 보여주어 예상치 못한 변경을 방지할 수 있다.
+
+
+
