@@ -170,6 +170,8 @@ putting S3 Bucket (ce22-bucket1) Policy: operation error S3: PutBucketPolicy
 `$terraform plan` 사용하기
 
 ![image](https://github.com/user-attachments/assets/cc4f4447-8904-4d90-a7d5-89a04ebad332)
+![image](https://github.com/user-attachments/assets/5b50fd92-813f-4d96-aa4b-9b8c70cc8404)
+
 <br>
 지금 내 terraform코드와 실제 aws인프라의 구성요소와의 차이를 확인하여 apply시 변동될 내역을 보여주어 예상치 못한 변경을 방지할 수 있다.
 
