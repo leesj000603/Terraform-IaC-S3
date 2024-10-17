@@ -1,5 +1,5 @@
-# Terraform-IaC-training
-terraform을 사용한 코드형 인프라 구축 실습
+# Terraform-IaC-S3
+terraform을 사용하여 S3를 활용한 정적 웹사이트 호스팅 과정을 코드로 구현
 
 
 ## Terraform을 이용한 S3생성 + html 파일 업로드 & 접속 실습
